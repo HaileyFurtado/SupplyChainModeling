@@ -1,0 +1,26 @@
+,,,,,,,,,,,,,,,,
+,,,,,TO,,FROM,,,,,,,,,
+location_id,location_name,,,Units of Flow ,NODE,Location name ,NODE ,Location name,Upper Bound ,,,,,,,Supply / Demand
+0,Cherry Cordial Cove,290,,0,0,Cherry Cordial Cove,1,Chocolate Chip Cliffs, $284.00 ,,Nodes,,Inflow,Outflow,Net Flow,
+1,Chocolate Chip Cliffs,0,,127,0,Cherry Cordial Cove,2,Coconut Cream Cove, $250.00 ,,0,Cherry Cordial Cove,290,290,0,0
+2,Coconut Cream Cove,127,,163,0,Cherry Cordial Cove,3,Marshmallow Meadows, $421.00 ,,1,Chocolate Chip Cliffs,0,0,0,0
+3,Marshmallow Meadows,163,,0,1,Chocolate Chip Cliffs,3,Marshmallow Meadows, $194.00 ,,2,Coconut Cream Cove,127,127,0,0
+4,Peanut Butter Parlor,290,,127,2,Coconut Cream Cove,4,Peanut Butter Parlor, $127.00 ,,3,Marshmallow Meadows,163,163,0,0
+5,Pixie Stix Plateau,108,,0,3,Marshmallow Meadows,2,Coconut Cream Cove, $271.00 ,,4,Peanut Butter Parlor,290,290,0,0
+6,Sour Patch Prairie,108,,163,3,Marshmallow Meadows,4,Peanut Butter Parlor, $163.00 ,,5,Pixie Stix Plateau,108,108,0,0
+7,Vanilla Chai Vortex,290,,182,4,Peanut Butter Parlor,7,Vanilla Chai Vortex, $182.00 ,,6,Sour Patch Prairie,108,108,0,0
+,,,,108,4,Peanut Butter Parlor,5,Pixie Stix Plateau, $150.00 ,,7,Vanilla Chai Vortex,290,290,0,0
+,,,,0,5,Pixie Stix Plateau,7,Vanilla Chai Vortex, $445.00 ,,,,,,,
+capacity_of_molten_chocolate,,,,108,5,Pixie Stix Plateau,6,Sour Patch Prairie, $203.00 ,,,,,,,
+284,,,,108,6,Sour Patch Prairie,7,Vanilla Chai Vortex, $205.00 ,,,,,,,
+250,,,,290,7,Vanilla Chai Vortex,0,Cherry Cordial Cove," $999,999,999.00 ",,,,,,,
+421,,,,,,,,,,,,,,,,
+194,,,,,,,,,,,,,,,,
+127,,,,,,,,,,,,,,,,
+271,,,,,,,,,,,,,,,,
+163,,,,Optimal solution,, $290.00 ,,,,,,,,,,
+182,,,,,,,,,,,,,,,,
+150,,,,,,,,,,,,,,,,
+445,,,,,,,,,,,,,,,,
+203,,,,,,,,,,,,,,,,
+205,,,,,,,,,,,,,,,,
