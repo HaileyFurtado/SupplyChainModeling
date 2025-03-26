@@ -1,0 +1,36 @@
+location_id,location_name,gumdrop_requirement,loc_type,,,,,,,
+0,Cherry Jubilee Junction,-204,warehouse,,,,,,,
+1,Choco Volcano,-368,warehouse,,,,,,,
+2,Coconut Cluster Caves,-326,warehouse,,,,,,,
+3,Fruit Chew Fjords,224,retail,,,,,,,
+4,Peppermint Peninsula,206,retail,,,,,,,
+5,Popping Candy Plains,206,retail,,,,,,,
+6,Praline Park,120,retail,,,,,,,
+7,Smores Summit,137,retail,,,,,,,
+8,Strawberry Swirl Stream,107,retail,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Ship,from,to,cost_per_mile,,,Nodes ,Inflow ,Outflow ,Netflow ,Supply Demand 
+306,0,4,39,,0,Cherry Jubilee Junction,0,306,-306,-319
+0,1,4,27,,1,Choco Volcano,0,368,-368,-368
+368,1,5,32,,2,Coconut Cluster Caves,0,326,-326,-326
+326,2,8,27,,3,Fruit Chew Fjords,262,38,224,224
+38,3,7,45,,4,Peppermint Peninsula,306,100,206,206
+0,3,8,39,,5,Popping Candy Plains,468,262,206,206
+100,4,5,32,,6,Praline Park,120,0,120,120
+262,5,3,30,,7,Smores Summit,137,0,137,137
+0,7,5,36,,8,Strawberry Swirl Stream,326,219,107,107
+0,8,3,34,,,,,,,
+0,8,4,26,,,,,,,
+0,8,5,25,,,,,,,
+120,8,6,39,,,Total Trnasportation Cost ,54714,,,
+99,8,7,48,,,,,,,
