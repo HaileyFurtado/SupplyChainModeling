@@ -1,0 +1,33 @@
+,,,,,,,,,,,,,,,,,,,,
+Ship ,from,to,cost_per_unit_shipped,Eulidean Distance,Total distance ,transportation_method,Eco Binary,Congestion Level,Congestion Binary ,,,Nodes,Inflow,Outflow ,Netflow,Supply Demand,,,,
+0,1,2,6,3.847830558,0,Cargo Ships (Heavy Fuel Oil),1,97,1,,1,Cherry Cordial Cove,0,9989,-9989,-9989,,,,
+0,1,4,21,5.393662948,0,Cargo Ships (Heavy Fuel Oil),1,73,1,,2,Chocolate Chip Cliffs,1951,0,1951,1951,,,,
+0,1,5,22,8.981369606,0,Air Freight,1,92,1,,3,Coconut Cream Cove,5436.367013,3871.367013,1565,1565,,,,
+0,1,6,19,13.57324206,0,Electric/Hybrid Trucks,0,93,1,,4,Marshmallow Meadows,3296.632987,1445.632987,1851,1851,,,,
+0,1,7,18,2.978942765,0,Wind-powered Ships,0,35,0,,5,Peanut Butter Parlor,3871.367013,1916.367013,1955,1955,,,,
+1916.367013,2,5,22,12.44882324,42160.07429,Electric/Hybrid Trucks,0,29,0,,6,Sprinkle Street,1445.632987,34.63298678,1411,1411,,,,
+34.63298678,2,6,5,9.781048001,173.1649339,Cargo Ships (Heavy Fuel Oil),1,86,1,,7,Vanilla Valley,1256,0,1256,1256,,,,
+5436.367013,3,1,7,8.12645064,38054.56909,Cargo Ships (Heavy Fuel Oil),1,27,0,,,,,,,,,,,
+0,3,2,21,11.77523673,0,Diesel Trucks,1,99,1,,,,,,,,,,,
+0,3,4,18,2.844292531,0,Electrified Rail,0,82,1,,,,,,,,,,,
+0,3,6,9,21.54483001,0,Air Freight,1,80,1,,,,,,,,,,,
+3296.632987,4,1,15,5.393662948,49449.4948,Diesel Rail,1,109,1,,,,Minmize transportation," $219,347.30 ",,,,,,
+0,4,3,15,2.844292531,0,Cargo Ships (Heavy Fuel Oil),1,29,0,,,,,,,,,,,
+0,4,5,22,6.532090018,0,Diesel Rail,1,28,0,,,,,,,,,,,
+0,4,6,18,18.93537694,0,Air Freight,1,89,1,,,,Miminize distance," $146,971.80 ",,,,,,
+3871.367013,5,3,14,7.672248693,54199.13819,Cargo Ships (Heavy Fuel Oil),1,82,1,,,,,,,,,,,
+0,5,4,22,6.532090018,0,Electric/Hybrid Trucks,0,92,1,,,,,,,,,,,
+1445.632987,6,4,14,18.93537694,20238.86181,Air Freight,1,71,1,,,,Maximize eco-friendliness,17274,,,,,,
+0,6,5,7,21.32548944,0,Diesel Rail,1,29,0,,,,,,,,,,,
+1256,7,1,12,2.978942765,15072,Diesel Rail,1,33,0,,,,,,,,,,,
+0,7,2,11,2.853296339,0,Diesel Trucks,1,29,0,,,,Minmize Congestion,8648.265974,,,,,,
+0,7,3,14,10.90075685,0,Electric/Hybrid Trucks,0,102,1,,,,,,,,,,,
+0,7,4,16,8.080575475,0,Wind-powered Ships,0,21,0,,,,,,,,,,,
+0,7,6,14,11.41557708,0,Cargo Ships (Heavy Fuel Oil),1,77,1,,,,,,totals ,target value ,Deviation,% devation,weight ,weighted devations 
+,,,,,,,,,,,,,,Trasnportation,219347.3031,198738," $20,609.30 ",10%,10,104%
+,,,,,,,,,,,,,,Distance,146971.8046,131641.038," $15,330.77 ",12%,5,58%
+,,,,,,,,,,,,,,Eco-Friendliness,15340.63299,11400," $3,940.63 ",35%,3,104%
+,,,,,,,,,,,,,,Congestion,8648.265974,5317," $3,331.27 ",63%,1,63%
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,MinMax,1.037008681,,,,
