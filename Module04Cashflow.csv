@@ -1,0 +1,41 @@
+,,,,,,,,,,,,,,,,,,,,,
+,Month of Cashflow,,,,,,Cash Flow Summary for Month,,,,,,,,,,,,,,
+Month ,Investment ,CODE,Inflow,Outflow, Amount ,Return,1,2,3,4,5,6,7,8,9,10,,,,,
+1,CandyCrest Holdings,A,1,2, $-   ,1.99%,-1,1.0199,,,,,,,,,,,,,
+,Gumball Growth Group,B,1,3, $655.14 ,4.22%,-1,<--->,1.0422,,,,,,,,,,,,
+,SugarFund Capital,E,1,6, $225.35 ,10.94%,-1,<--->,<--->,<--->,<--->,1.1094,,,,,,,,,
+2,CandyCrest Holdings,A,2,3, $-   ,1.99%,,-1,1.0199,,,,,,,,,,,,
+,Nougat Nest Investments,C,2,5, $-   ,6.46%,,-1,<--->,<--->,1.0646,,,,,,,,,,
+3,CandyCrest Holdings,A,3,4, $-   ,1.99%,,,-1,1.0199,,,,,,,,,,,
+,Gumball Growth Group,B,3,5, $-   ,4.22%,,,-1,<--->,1.0422,,,,,,,,,,
+,RockCandy Returns,D,3,7, $432.78 ,8.69%,,,-1,<--->,<--->,<--->,1.0869,,,,,,,,
+4,CandyCrest Holdings,A,4,5, $-   ,1.99%,,,,-1,1.0199,,,,,,,,,,
+5,CandyCrest Holdings,A,5,6, $-   ,1.99%,,,,,-1,1.0199,,,,,,,,,
+,Gumball Growth Group,B,5,7, $-   ,4.22%,,,,,-1,<--->,1.0422,,,,,,,,
+,Nougat Nest Investments,C,5,8, $-   ,6.46%,,,,,-1,<--->,<--->,1.0646,,,,,,,
+6,CandyCrest Holdings,A,6,7, $-   ,1.99%,,,,,,-1,1.0199,,,,,,,,
+7,CandyCrest Holdings,A,7,8, $-   ,1.99%,,,,,,,-1,1.0199,,,,,,,
+,Gumball Growth Group,B,7,9, $470.39 ,4.22%,,,,,,,-1,<--->,1.0422,,,,,,
+8,CandyCrest Holdings,A,8,9, $-   ,1.99%,,,,,,,,-1,1.0199,,,,,,
+9,CandyCrest Holdings,A,9,10, $490.24 ,1.99%,,,,,,,,,-1,1.0199,,,,,
+,,,,TOTAL AMOUNT, $880.48 ,Surplus Funds, $(880.48), $-   , $250.00 , $-   , $-   , $250.00 , $-   , $-   , $-   , $500.00 ,,,,,
+,,,,,,Req'd Payments, $-   , $-   , $250.00 , $-   , $-   , $250.00 , $-   , $-   , $-   , $500.00 ,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,Sum of Surplus funds,Sum of Req'd Payments
+,,,,,,,,,,,,,,,,,Investments ,Return ,, $119.52 ," $1,000.00 "
+,,,,,,,,,,,,,,,,,A,1.99%,,,
+,,,,,,,,,,,,,,,,,B,4.22%,,,
+,,,,,,,,,,,,,,,,,C,6.46%,,,
+,,,,,,,,,,,,,,,,,D,8.69%,,,
+,,,,,,,,,,,,,,,,,E,10.94%,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,final_payment_start_of_year,first_payment_year,second_payment_year,,
+,,,,,,,,,,,,,,,,,10,3,6,,
+,,,,,,,,,,,,,,,,,500,250,500,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,investment_name,investment_pct,month_can_start_investing,can_invest_every,CODE
+,,,,,,,,,,,,,,,,,CandyCrest Holdings,0.0199,1,1,A
+,,,,,,,,,,,,,,,,,Gumball Growth Group,0.0422,1,2,B
+,,,,,,,,,,,,,,,,,Nougat Nest Investments,0.0646,2,3,C
+,,,,,,,,,,,,,,,,,RockCandy Returns,0.0869,3,4,D
+,,,,,,,,,,,,,,,,,SugarFund Capital,0.1094,1,5,E
